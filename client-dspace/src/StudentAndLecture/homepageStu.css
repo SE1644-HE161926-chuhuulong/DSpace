@@ -1,0 +1,135 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #e9ecef;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@keyframes bell-keyframes {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .bell {
+    display: inline-block;
+    font-size: 30px;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  }
+  
+  .bell-animation {
+    animation-duration: 1s;
+    /* animation-iteration-count: var(--times, 1); */
+    animation-name: bell-keyframes;
+    transform-origin: top center;
+  }
+
+  .clickable-row {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.table tbody .clickable-row:hover {
+    background-color: #f0f0f0; /* Màu nền sậm hơn khi trỏ vào */
+}
+
+/* CSS */
+.custom-file-upload {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #f0f0f0;
+  }
+
+  .clickable-row {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.table tbody .clickable-row:hover {
+    background-color: #f0f0f0; /* Màu nền sậm hơn khi trỏ vào */
+}
+  

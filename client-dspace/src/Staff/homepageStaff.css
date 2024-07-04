@@ -1,0 +1,73 @@
+/* .container {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #e9ecef;
+}
+
+.footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+} */
+
+.short-column {
+    width: 15%; /* Điều chỉnh giá trị này theo nhu cầu của bạn */
+    white-space: nowrap;
+}
+
+.short-column a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+}

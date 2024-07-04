@@ -1,0 +1,47 @@
+/* src/App.css */
+.filter-sidebar {
+    width: 250px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter-section {
+    margin-bottom: 10px;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+
+.filter-content {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.reset-filters {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset-filters button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-filters button:hover {
+    background-color: #555;
+}

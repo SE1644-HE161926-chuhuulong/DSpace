@@ -1,0 +1,68 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 50px; 
+
+
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+}
+
+
+.menu li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    aspect-ratio: 1;
+    font-size: 14px;
+}
+
+.menu li:hover {
+    background-color: #e9ecef;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    height: 100%;
+    /* Ensures the link takes the full height of the list item */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centers the text within the link */
+}
+
+.ft {
+    text-align: center;
+    margin: 50px 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+}
+
+.ft a {
+    color: #007bff;
+    text-decoration: none;
+}
+.community-link {
+    text-decoration: none;
+    color: inherit; /* Optional: Ensures the link color matches the surrounding text */
+}
+
+.community-link:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover if desired */
+}
+
